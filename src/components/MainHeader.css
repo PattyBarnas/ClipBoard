@@ -1,0 +1,36 @@
+.main-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.1rem 0;
+  /* background-color: red; */
+  border-bottom: 2px solid white;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.main-header h1 {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 1.2rem;
+  font-size: 2.8rem;
+}
+
+.main-header .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem 2.4rem;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 5px 8px 12px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  background-color: #c3fae8;
+}
+.main-header .button:hover {
+  background-color: #e6fcf5;
+  transform: scale(1.1);
+}
