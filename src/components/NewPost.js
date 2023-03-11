@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import "./NewPost.css";
-import { v4 as uuidv4 } from "uuid";
 
 const NewPost = (props) => {
-  let id = uuidv4();
   const [enteredBody, setEnteredBody] = useState("");
   const [enteredName, setEnteredName] = useState("");
 
@@ -23,7 +21,6 @@ const NewPost = (props) => {
       name: enteredName,
     };
     props.onAddPost(postData);
-    console.log(postData);
     props.onCancel();
   };
   return (
