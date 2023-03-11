@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ClipBoard/static/css/main.c9ae0a90.css",
-    "main.js": "/ClipBoard/static/js/main.8677357e.js",
+    "main.js": "/ClipBoard/static/js/main.a1d47028.js",
     "index.html": "/ClipBoard/index.html",
     "main.c9ae0a90.css.map": "/ClipBoard/static/css/main.c9ae0a90.css.map",
-    "main.8677357e.js.map": "/ClipBoard/static/js/main.8677357e.js.map"
+    "main.a1d47028.js.map": "/ClipBoard/static/js/main.a1d47028.js.map"
   },
   "entrypoints": [
     "static/css/main.c9ae0a90.css",
-    "static/js/main.8677357e.js"
+    "static/js/main.a1d47028.js"
   ]
 }
